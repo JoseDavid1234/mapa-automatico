@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mapa Mental Básico</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="cabecera">
+        <div class="botones">
+          <button id="addNode">Agregar Nodo</button>
+          <button id="ordenar">Ordenar nodos</button>
+          <input type="file" id="file-input" />
+        </div>
+        <h1>Mapa Mental Básico</h1>
+        <input type="color" id="changeColor" />
+        <button id="btnChangeColor">Aplicar color</button>
+      </div>
+
+      <div class="map">
+        <canvas id="connections"></canvas>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
